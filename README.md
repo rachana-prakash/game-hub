@@ -1,1 +1,1 @@
-# game-hub-project
+# game-hub
