@@ -14,6 +14,8 @@ export interface GameQuery {
   platform: Platform | null;
   ordering: string;
   search: string;
+  page: number;
+  page_size: number;
 }
 function App() {
   const [gameQuery, setGameQuery] = useState<GameQuery>({} as GameQuery);
